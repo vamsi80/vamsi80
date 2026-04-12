@@ -1,16 +1,33 @@
-## Hi there 👋
+# Full-Stack Web Developer
+Crafting scalable, high-performance web applications with modern technologies.
 
-<!--
-**vamsi80/vamsi80** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## What I Build
+I build full-stack web applications that solve real business problems—from enterprise ERPs handling thousands of transactions to interactive digital experiences. Focused on clean architecture, performance optimization, and seamless user experiences.
 
-Here are some ideas to get you started:
+## Tech Stack
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Featured Projects
+### Enterprise ERP System
+Next.js + TypeScript + PostgreSQL
+Large-scale client project handling complex business workflows, multi-user transactions, and real-time data synchronization.
+
+### Digital Signage CMS
+BrightSign/Samsung SSP Integration
+On-premise CMS for 20+ screens across physical experience centers with remote content management and scheduling.
+
+### Interactive Web Redesigns
+GSAP-powered animations
+Client website modernization projects with smooth, performant animations and improved user engagement.
+
+## Currently Working On
+- **ERP System Scaling** — Optimizing for high-concurrency scenarios and advanced reporting features
+- **AI Chatbot with RAG Pipeline** — Building intelligent document retrieval and conversational AI integration
+
+## GitHub Stats
+![Vamsi's GitHub stats](https://github-readme-stats.vercel.app/api?username=vamsi80&show_icons=true&theme=nord&hide_border=true) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vamsi80&layout=compact&theme=nord&hide_border=true)
+
+## Connect
+📍 **Bengaluru, India**
+- **Portfolio:** [your-portfolio-link.com](https://your-portfolio-link.com)
+- **LinkedIn:** [linkedin.com/in/vamsi-krishna-mannem](https://linkedin.com/in/vamsi-krishna-mannem)
