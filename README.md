@@ -12,10 +12,6 @@ I build full-stack web applications that solve real business problems—from ent
 Next.js + TypeScript + PostgreSQL
 Large-scale client project handling complex business workflows, multi-user transactions, and real-time data synchronization.
 
-### Digital Signage CMS
-BrightSign/Samsung SSP Integration
-On-premise CMS for 20+ screens across physical experience centers with remote content management and scheduling.
-
 ### Interactive Web Redesigns
 GSAP-powered animations
 Client website modernization projects with smooth, performant animations and improved user engagement.
@@ -24,8 +20,6 @@ Client website modernization projects with smooth, performant animations and imp
 - **ERP System Scaling** — Optimizing for high-concurrency scenarios and advanced reporting features
 - **AI Chatbot with RAG Pipeline** — Building intelligent document retrieval and conversational AI integration
 
-## GitHub Stats
-![Vamsi's GitHub stats](https://github-readme-stats.vercel.app/api?username=vamsi80&show_icons=true&theme=nord&hide_border=true) ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=vamsi80&layout=compact&theme=nord&hide_border=true)
 
 ## Connect
 📍 **Bengaluru, India**
