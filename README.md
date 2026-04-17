@@ -18,7 +18,6 @@ Client website modernization projects with smooth, performant animations and imp
 
 ## Currently Working On
 - **ERP System Scaling** — Optimizing for high-concurrency scenarios and advanced reporting features
-- **AI Chatbot with RAG Pipeline** — Building intelligent document retrieval and conversational AI integration
 
 
 ## Connect
