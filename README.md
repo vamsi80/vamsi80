@@ -22,5 +22,5 @@ Client website modernization projects with smooth, performant animations and imp
 
 ## Connect
 📍 **Bengaluru, India**
-- **Portfolio:** [your-portfolio-link.com](https://your-portfolio-link.com)
+- **Portfolio:** [portfolio]([https://portfolio-eta-tan-14.vercel.app/])
 - **LinkedIn:** [linkedin.com/in/vamsi-krishna-mannem](https://linkedin.com/in/vamsi-krishna-mannem)
