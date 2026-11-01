@@ -1,5 +1,15 @@
 <div align="center">
 
+<!-- BANNER - terminal "profile.sh --live". Regenerate: python scripts/generate_banner.py
+     Bump ?v=N after regenerating to bust GitHub's image cache. -->
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/banner-dark.svg?v=1">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=1">
+  <img src="assets/banner-dark.svg?v=1" width="100%" alt="profile.sh --live">
+</picture>
+
+<br>
+
 <!-- NAME / TAGLINE - animated typing -->
 <a href="https://github.com/vamsi80">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=2600&pause=900&color=2F81F7&center=true&vCenter=true&width=880&lines=Vamsi+Krishna+-+Full-Stack+Web+Developer;Next.js+%2F+TypeScript+%2F+React+%2F+Node.js;Scalable+ERPs+and+Interactive+Web+Experiences" alt="typing banner">

@@ -1,0 +1,8 @@
+# Playwright preview output
+.playwright-mcp/
+
+# Particle generator raster output
+particle_images/
+
+# Cached avatar source (re-downloaded by scripts/generate_banner.py when missing)
+_avatar_src.png
