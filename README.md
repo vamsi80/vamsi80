@@ -3,9 +3,9 @@
 <!-- BANNER - terminal "profile.sh --live". Regenerate: python scripts/generate_banner.py
      Bump ?v=N after regenerating to bust GitHub's image cache. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="assets/banner-dark.svg?v=1">
-  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=1">
-  <img src="assets/banner-dark.svg?v=1" width="100%" alt="profile.sh --live">
+  <source media="(prefers-color-scheme: dark)"  srcset="assets/banner-dark.svg?v=2">
+  <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.svg?v=2">
+  <img src="assets/banner-dark.svg?v=2" width="100%" alt="profile.sh --live">
 </picture>
 
 <br>

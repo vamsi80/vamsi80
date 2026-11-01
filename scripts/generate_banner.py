@@ -15,7 +15,7 @@ import numpy as np
 from PIL import Image
 
 USER = "vamsi80"
-VERSION = 1
+VERSION = 2
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 ASSETS = os.path.join(ROOT, "assets")
@@ -46,8 +46,8 @@ TITLE = "profile.sh --live"
 # ------------------------------------------------------------------- layout ---
 W, H = 1160, 460
 PBOX = 300  # portrait sampling grid (square)
-N_POINTS = 12000
-CROP = (100, 95, 330, 325)
+N_POINTS = 14000
+CROP = (30, 40, 430, 440)  # full square framing of the subject
 
 # monospace glyph advance as a fraction of font-size (Consolas/DejaVu ~0.60)
 ADV = 0.60
@@ -68,14 +68,10 @@ def build_points():
     arr = np.asarray(im).astype(np.float32)
     gray = (0.299 * arr[:, :, 0] + 0.587 * arr[:, :, 1] + 0.114 * arr[:, :, 2]) / 255.0
 
-    yy, xx = np.mgrid[0:PBOX, 0:PBOX].astype(np.float32)
-    cx, cy = PBOX * 0.50, PBOX * 0.46
-    rx, ry = PBOX * 0.44, PBOX * 0.55
-    d = ((xx - cx) / rx) ** 2 + ((yy - cy) / ry) ** 2
-    mask = np.clip(1.02 - d, 0, 1)
-
-    weight = (gray ** 1.35) * mask
-    weight[gray < 0.20] *= 0.08
+    # full square: stipple the whole frame edge to edge (no vignette);
+    # keep only the darkest background sparse so it reads as sky, not mud
+    weight = gray ** 1.35
+    weight[gray < 0.12] *= 0.35
 
     rng = np.random.default_rng(7)
     flat = weight.flatten()
